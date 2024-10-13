@@ -22,7 +22,7 @@
 # Test the function with various inputs to ensure correctness.
 
 
-def numbersListManipulation(numbers):
+def manipulate_numbers_list(numbers):
     # Remove all even numbers from the list using list comprehension
     odd_numbers = [num for num in numbers if num % 2 != 0]
     # Square the remaining odd numbers
@@ -34,4 +34,4 @@ def numbersListManipulation(numbers):
 
 
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-print(numbersListManipulation(numbers=numbers))
+print(manipulate_numbers_list(numbers=numbers))
