@@ -7,7 +7,7 @@
 
 
 # Define a function to check if a word is a palindrome
-def isPalindrome(word):
+def is_Palindrome(word):
     # Check if the word is the same when reversed
     if word == word[::-1]:  # word[::-1] reverses the string
         return f"{word} is a palindrome "  # If true, return this message
