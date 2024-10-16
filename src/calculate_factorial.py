@@ -10,9 +10,9 @@ def calculate_factorial(n):
     if n == 0:
         return 1
     else:
-        return n * factorial(n - 1)
+        return n * calculate_factorial(n - 1)
 
 
 number = 5
-factorial_result = factorial(number)
+factorial_result = calculate_factorial(number)
 print(factorial_result)

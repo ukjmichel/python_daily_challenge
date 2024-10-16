@@ -16,7 +16,7 @@ def is_Palindrome(word):
 
 
 # Test the function with the word "hello"
-print(isPalindrome("hello"))  # Expected output: "hello is not a palindrome"
+print(is_Palindrome("hello"))  # Expected output: "hello is not a palindrome"
 
 # Test the function with the word "racecar"
-print(isPalindrome("racecar"))  # Expected output: "racecar is a palindrome"
+print(is_Palindrome("racecar"))  # Expected output: "racecar is a palindrome"

@@ -2,7 +2,7 @@
 my_numbers_list = [2, 3, 4, 5, 6, 8, 7, 9, 2, 12, 23, 56, 78, 98, 45, 23]
 
 
-def numberFinder(numbers_list):
+def find_number(numbers_list):
     # Create a list of unique numbers by converting the input list to a set and back to a list
     unique_numbers_list = list(set(numbers_list))
 
@@ -28,4 +28,4 @@ def numberFinder(numbers_list):
 
 
 # Call the numberFinder function with the predefined list of numbers
-numberFinder(my_numbers_list)
+find_number(my_numbers_list)
