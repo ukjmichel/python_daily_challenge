@@ -13,6 +13,12 @@ def calculate_factorial(n):
         return n * calculate_factorial(n - 1)
 
 
-number = 5
+calculate_factorial_lambda = lambda n: 1 if n == 0 else n * calculate_factorial(n - 1)
+
+
+number = 4
 factorial_result = calculate_factorial(number)
 print(factorial_result)
+
+factorial_lambda_result = calculate_factorial_lambda(number)
+print(factorial_lambda_result)
